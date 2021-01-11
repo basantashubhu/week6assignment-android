@@ -6,6 +6,7 @@
     tools:context=".fragments.AddStudentFragment">
 
     <ScrollView
+        android:id="@+id/scroll_view_student"
         android:fillViewport="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -30,7 +31,7 @@
                 android:layout_marginTop="30sp"
                 android:hint="Full Name"
                 android:textSize="16sp"
-                android:inputType="text"
+                android:inputType="textCapWords"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -73,7 +74,7 @@
                 android:id="@+id/student_address_input"
                 android:layout_marginTop="15sp"
                 android:hint="Address"
-                android:inputType="text"
+                android:inputType="textCapWords"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 

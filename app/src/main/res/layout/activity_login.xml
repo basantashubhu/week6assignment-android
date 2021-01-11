@@ -17,15 +17,16 @@
         tools:context=".LoginActivity">
 
         <TextView
-            android:textSize="50sp"
+            android:autoSizeMaxTextSize="50sp"
             android:text="E-Softwarica"
-            android:textColor="#fff"
+            android:textColor="@color/white"
             android:textStyle="bold"
+            android:autoSizeTextType="uniform"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="80dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="30sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/EditTextInputLayoutStyle"
