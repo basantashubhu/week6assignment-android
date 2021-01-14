@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.WelcomeFragmentTwo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="40sp"
+            android:src="@drawable/baseline_wifi_24"
+            android:layout_width="60sp"
+            android:layout_height="60sp"/>
+        <TextView
+            android:text="Internet"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/baseline_desktop_windows_24"
+            android:layout_marginTop="50sp"
+            android:layout_width="60sp"
+            android:layout_height="60sp"/>
+        <TextView
+            android:text="Computer"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/baseline_bug_report_24"
+            android:layout_marginTop="50sp"
+            android:layout_width="60sp"
+            android:layout_height="60sp"/>
+        <TextView
+            android:text="Bug Fixing"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/baseline_3d_rotation_24"
+            android:layout_marginTop="50sp"
+            android:layout_width="60sp"
+            android:layout_height="60sp"/>
+        <TextView
+            android:text="3D Printing"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>

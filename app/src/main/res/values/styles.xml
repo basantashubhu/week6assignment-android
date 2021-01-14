@@ -11,4 +11,9 @@
         <item name="hintTextColor">@color/white</item>
         <item name="errorTextAppearance">@style/ErrorText</item>
     </style>
+    <style name="TabLayoutStyle" parent="Widget.MaterialComponents.TabLayout.Colored">
+        <item name="colorPrimary">@color/white</item>
+        <item name="tabIndicatorColor">@null</item>
+    </style>
+
 </resources>
